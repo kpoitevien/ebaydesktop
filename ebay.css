@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'Product Sans';
+    src: URL('Product Sans Regular.ttf') format('truetype');
+  }
+
+  
+  *{
+    box-sizing: border-box;
+  }
+
+  
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  
+  li{
+    list-style-type: none;
+  }
+
+  a{
+      color:white;
+      text-decoration: none;
+  }
+  
+  header, footer{
+    position: fixed;
+    right: 10px;
+    left: 0;
+  }
+
+  header{
+      top: 100px;
+  }
+
+  .bell{
+      width: 100px;
+      height: 100px;
+
+  }
+  footer{
+      bottom: 0;
+      background-color: rgb(44, 43, 43);
+      border-top: 1px solid #e4e4e4;
+}
+  
+  nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li{
+    padding: 15px;
+  }
+  
+  nav ul{
+    display: flex;
+  }
+
+  .fas{
+      font-size: 1rem;
+      cursor: pointer;
+      color: rgba(0, 0, 0, 0.8);
+  }
+  
+  #profile{
+    width: 24px;
+    border-radius: 100%;
+    border: 2px solid black;
+    cursor: pointer;
+  }
+
+  h1{
+    position: absolute;
+    left: 106px;
+    width: 200px;
+    height: 60px;
+    font-size: 50px;
+    text-decoration: none solid rgb(red, green, blue);
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: -6px;
+    text-align: left;
+    top: 60px;
+    margin: 0;
+    margin-top: -10px;
+    margin-left: -110px ;
+    margin-right: -200px;
+    border-bottom:1px solid #CCC;
+    float:left right;
+    width:100%;
+    padding-bottom:3px;
+  }
+
+  .logo-div {
+    margin-top: 3rem;
+    margin-left: 135rem;
+  }
+
+  .logo-div span {
+    font-size: 5rem;
+  }
+
+  main {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vw;
+    align-content: center;
+  }
+
+  .search-container form {
+    margin-right: 95rem;
+    margin-left: 5rem;
+  }
+
+  .h3{
+    border-bottom:1px solid;
+    float:left right;
+    width:100%;
+    padding-bottom:3px;
+  }
+  
+  .blue {
+    color: #4285F4;
+  }
+  
+  .red {
+    color: #DB4437;
+  }
+  
+  .yellow {
+    color: #F4B400;
+  }
+  
+  .green {
+    color:  #0F9D58;
+  }
+
+  input[type="text"]{
+    position: center;
+      border-radius: 15px;
+      border: 1px solid orange;
+      padding: 10px 20px;
+      margin: 30 0px;
+      width: 450px;
+      font-size: 1rem;
+  }
+
+  input[type=text]:hover, input[type=text]:focus{
+    outline: none;
+    box-shadow: 0px 0px 5px 0px lightgray;
+    text-align: left;
+    margin-top: 1rem;
+  }
+
+  #buttons{
+    text-align: right;
+  }
+
+  button{
+    margin-right: 100px;
+    font-family: inherit;
+    padding: 0 16px;
+    font-size: 0.8rem;
+    margin: 4px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    height: 36px;
+    line-height: 36px;
+  }
+
+  button:hover{
+    border: 1px solid orange;
+    cursor: pointer;
+    position: right;
+    left: 106px;
+    width: 200px;
+    height: 60px;
+    top: 60px;
+    margin: 0;
+    margin-top: 100px;
+    margin-left: -110px ;
+    margin-right: -200px;
+    border-bottom:1px solid orange;
+    float:left right;
+    width:100%;
+    padding-bottom:3px;
+
+  }
+
+/* 
+  .searchbutton{
+    position: center;
+    margin-top: 100px;
+    margin-left: -900px;
+    margin-right: 900px;
+  }
+
+  .watch{
+    position: center;
+    width: 180rem;
+    margin-top: 90px;
+    margin-bottom: -60px;
+  }
+.watch2{
+  position: center;
+  width: 90rem;
+  height: 600px;
+} */
+
+/* .logo{
+  display: block;
+  margin-top: -3rem;
+  margin-left: 400px;
+  margin-right: auto;
+  width: 120px;
+  height: 105px;
+} */
+
+/* * {
+  box-sizing: border-box;
+}
+
+.eba{
+  width: 180rem;
+}
+
+.ebay9{
+  width: 180rem;
+  /* margin-top: -50px; */
+} */
