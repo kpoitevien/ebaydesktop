@@ -81,7 +81,7 @@
     height: 60px;
     font-size: 50px;
     text-decoration: none solid rgb(red, green, blue);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Ti`s New Roman', Times, serif; 
     letter-spacing: -6px;
     text-align: left;
     top: 60px;
@@ -98,6 +98,7 @@
   .logo-div {
     margin-top: 3rem;
     margin-left: 135rem;
+    display: flex;
   }
 
   .logo-div span {
